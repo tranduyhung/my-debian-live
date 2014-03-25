@@ -1,4 +1,4 @@
-My live-build configuration for building my own Debian system: Debian Wheeze, i3 window manager, lightdm display manager.
+My live-build configuration for building my own Debian system: Debian Wheezy, i3 window manager, lightdm display manager.
 
 The mirror links in configuration file point to my local approx proxy server.
 
