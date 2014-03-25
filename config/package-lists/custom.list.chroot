@@ -12,7 +12,7 @@ iceweasel midori chromium-browser
 geany git
 apache2 php5 mysql-server phpmyadmin
 ruby rails3
-sftp filezilla
+vsftpd filezilla
 
 # Network
 wicd-gtk

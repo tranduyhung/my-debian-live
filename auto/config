@@ -23,8 +23,8 @@ lb config noauto \
 	--linux-packages "linux-image linux-headers" \
 	--source "${_SOURCE}" \
 	--archive-areas "main contrib non-free" \
-	--mirror-bootstrap http://localhost:9999/debian \
-	--mirror-chroot-security http://localhost:9999/security \
-	--mirror-binary http://localhost:9999/debian \
-	--mirror-binary-security http://localhost:9999/security \
+	--mirror-bootstrap http://127.0.0.1:9999/debian \
+	--mirror-chroot-security http://127.0.0.1:9999/security \
+	--mirror-binary http://127.0.0.1:9999/debian \
+	--mirror-binary-security http://127.0.0.1:9999/security \
 "${@}"
