@@ -1,0 +1,42 @@
+# Testing in VirtualBox
+virtualbox-guest-dkms virtualbox-guest-x11
+
+# Display manager
+lightdm i3 
+
+# Multimedia
+vlc flashplugin-nonfree alsa
+
+# Work
+iceweasel midori chromium-browser
+geany git
+apache2 php5 mysql-server phpmyadmin
+ruby rails3
+sftp filezilla
+
+# Network
+wicd-gtk
+
+# System
+lxtask lxterminal pcmanfm
+
+# Archive
+xarchiver rar unrar
+
+# Input method
+ibus ibus-unikey
+
+# Package manager
+synaptic gdebi
+
+# Tools
+obconf gparted axel evince
+
+# Image
+gimp shotwell
+
+# Office
+libreoffice-writer libreoffice-calc libreoffice-impress
+
+# Already required by installing ruby and rails3:
+# build-essential g++
